@@ -19,7 +19,7 @@ class arraysum
 			System.out.println(s);
 		}
 		else
-			System.out.println("Invaid");
+			System.out.println("Invalid");
 	
 }
 }
