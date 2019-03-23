@@ -7,6 +7,8 @@ class arraysum
 		int s=0;
 		int k = sc.nextInt();
 		int l= sc.nextInt();
+		if(k>=l)
+		{
 		int n[]=new int[k];
 		for(int i=0; i<k; i++)
 		{
@@ -15,5 +17,9 @@ class arraysum
 		for(int i=0; i<l; i++)
 			s+=n[i];
 			System.out.println(s);
+		}
+		else
+			System.out.println("Invaid");
+	
 }
 }
